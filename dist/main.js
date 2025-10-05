@@ -83,4 +83,12 @@ export {};
 // };
 // const utenteParziale: ParzialeUtente = { nome: "Luca" };
 // console.log(utenteParziale);
+// type TipoId<T> = T extends number ? "numerico" : "stringa";
+// let tipoA: TipoId<number>; // "numerico"
+// let tipoB: TipoId<string>; // "stringa"
+// function tipoId<T>(valore: T) : string {
+//     return typeof valore ==="number" ? 'numerico' : ' stringa';
+// }
+// console.log(tipoId(50));
+// console.log(tipoId('cauia vekka'));
 //# sourceMappingURL=main.js.map
