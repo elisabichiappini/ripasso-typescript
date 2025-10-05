@@ -60,14 +60,18 @@
 
 // console.log(utente);
 
-type Risposta = string | null;
+// type Risposta = string | null;
 
-function stampaMessaggio(risposta: Risposta) {
-  if (risposta) {
-    console.log("Risposta:", risposta);
-  } else {
-    console.log("Nessuna risposta ricevuta");
-  }
-};
+// function stampaMessaggio(risposta: Risposta) {
+//   if (risposta) {
+//     console.log("Risposta:", risposta);
+//   } else {
+//     console.log("Nessuna risposta ricevuta");
+//   }
+// };
 
-stampaMessaggio('ciao');
+// stampaMessaggio('ciao');
+
+
+const text = document.getElementById("title") as HTMLElement;
+console.log(text.textContent);
