@@ -68,4 +68,6 @@ function stampaMessaggio(risposta: Risposta) {
   } else {
     console.log("Nessuna risposta ricevuta");
   }
-}
+};
+
+stampaMessaggio('ciao');

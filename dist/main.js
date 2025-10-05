@@ -8,5 +8,7 @@ function stampaMessaggio(risposta) {
         console.log("Nessuna risposta ricevuta");
     }
 }
+;
+stampaMessaggio('ciao');
 export {};
 //# sourceMappingURL=main.js.map
