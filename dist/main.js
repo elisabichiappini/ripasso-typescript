@@ -1,5 +1,6 @@
 // //definizione utente
 // interface Utente {
+export {};
 //     nome:String;
 //     eta:Number;
 //     attivo: Boolean;
@@ -96,9 +97,15 @@
 // const n = identita(42);       // T = number
 // const s = identita("ciao");   // T = string
 // console.log(n, s);
-function tipoId(valore) {
-    return typeof valore === "number" ? "numerico" : "stringa";
-}
-console.log(tipoId('ciao'));
-export {};
+// function tipoId<T>(valore: T): string {
+//   return typeof valore === "number" ? "numerico" : "stringa";
+// }
+// console.log(tipoId('ciao'));
+// interface Props {
+//   nome: string;
+//   eta?: number; // opzionale
+// }
+// const Benvenuto: React.FC<Props> = ({ nome, eta }) => {
+//   return <h2> Ciao {nome}, {eta ? `hai ${eta} anni` : "età non specificata"}. </h2>;
+// };
 //# sourceMappingURL=main.js.map

@@ -131,8 +131,17 @@
 
 // console.log(n, s);
 
-function tipoId<T>(valore: T): string {
-  return typeof valore === "number" ? "numerico" : "stringa";
-}
+// function tipoId<T>(valore: T): string {
+//   return typeof valore === "number" ? "numerico" : "stringa";
+// }
 
-console.log(tipoId('ciao'));
+// console.log(tipoId('ciao'));
+
+// interface Props {
+//   nome: string;
+//   eta?: number; // opzionale
+// }
+
+// const Benvenuto: React.FC<Props> = ({ nome, eta }) => {
+//   return <h2> Ciao {nome}, {eta ? `hai ${eta} anni` : "età non specificata"}. </h2>;
+// };
