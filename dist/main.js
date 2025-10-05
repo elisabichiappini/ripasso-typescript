@@ -1,5 +1,6 @@
 // //definizione utente
 // interface Utente {
+export {};
 //     nome:String;
 //     eta:Number;
 //     attivo: Boolean;
@@ -61,14 +62,25 @@
 // }
 // console.log(identita<string>("Ciao"));
 // console.log(identita<number>(123));
-function primoElemento(array) {
-    return array[2];
-}
-console.log(primoElemento([1, 2, 3]));
-console.log(primoElemento(["a", "b", "c"]));
-function stampaNome(obj) {
-    console.log(obj.nome.toUpperCase());
-}
-stampaNome({ nome: "Mario", eta: 30 });
-export {};
+// function primoElemento<T>(array: T[]): T | undefined {
+//   return array[2];
+// }
+// console.log(primoElemento([1, 2, 3]));
+// console.log(primoElemento(["a", "b", "c"]));
+// interface OggettoConNome {
+//   nome: string;
+// }
+// function stampaNome<T extends OggettoConNome>(obj: T) {
+//   console.log(obj.nome.toUpperCase());
+// }
+// stampaNome({ nome: "Mario", eta: 30 });
+// interface Utente {
+//   nome: string;
+//   email: string;
+// }
+// type ParzialeUtente = {
+//   [K in keyof Utente]?: Utente[K];
+// };
+// const utenteParziale: ParzialeUtente = { nome: "Luca" };
+// console.log(utenteParziale);
 //# sourceMappingURL=main.js.map
