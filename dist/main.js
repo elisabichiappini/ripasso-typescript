@@ -1,16 +1,12 @@
-//implementiamo la funzione
-const saluta = (utente) => {
-    return `Ciao ${utente.nome}, hai ${utente.eta} anni!`;
-};
-//mostriamo in dom il risultato
-const utente1 = {
-    nome: 'Elisa',
-    eta: 35,
-    attivo: true,
-};
-const title = document.getElementById('title');
-if (title) {
-    title.textContent = saluta(utente1);
+// //definizione utente
+// interface Utente {
+function stampaMessaggio(risposta) {
+    if (risposta) {
+        console.log("Risposta:", risposta);
+    }
+    else {
+        console.log("Nessuna risposta ricevuta");
+    }
 }
 export {};
 //# sourceMappingURL=main.js.map
