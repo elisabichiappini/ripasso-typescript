@@ -1,6 +1,5 @@
 // //definizione utente
 // interface Utente {
-export {};
 //     nome:String;
 //     eta:Number;
 //     attivo: Boolean;
@@ -91,4 +90,11 @@ export {};
 // }
 // console.log(tipoId(50));
 // console.log(tipoId('cauia vekka'));
+function identita(valore) {
+    return valore;
+}
+const n = identita(42); // T = number
+const s = identita("ciao"); // T = string
+console.log(n, s);
+export {};
 //# sourceMappingURL=main.js.map
